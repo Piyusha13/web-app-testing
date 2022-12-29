@@ -1,0 +1,247 @@
+.transactionComplet {
+    position: fixed;
+    left: 0rem;
+    right: 0rem;
+    top: 0rem;
+    bottom: 0rem;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    /* padding: 5%; */
+    margin: 0rem;
+    /* overflow: scroll; */
+    /* scroll-behavior: smooth; */
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.transation-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    background-color: #17171A !important;
+    color: #EEE;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    /* height: 90vh; */
+    /* position: fixed; */
+
+}
+
+.transation-heading {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    width: 100%;
+    /* background-color: #FEBF32; */
+}
+
+.trasation-content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.transation-compilet {
+    
+    background: rgba(118, 226, 104, 0.25);
+   max-width: 22rem;
+    border-radius: 8px;
+
+}
+
+.transation-complet-title {
+    display: inline-flex;
+    align-items: center;
+    align-content: space-around;
+}
+
+.transation-cash-details {
+
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+    /* padding: 1rem 12rem; */
+}
+
+.transation-address-content {
+
+    border: 1px solid #ABAFC4;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+}
+.p-text-1{
+    font-size: 20px;
+}
+.p-text-2{
+    font-weight: 400;
+font-size: 16px;
+color:  #CCCDCC;
+}
+
+.p-text-3{
+    font-size: 14px;
+}
+
+
+.from-to {
+    width: 100%;
+}
+
+.from-to>p:nth-child(1) {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FEBF32;
+
+}
+.upi-text{
+    color: rgb(183, 183, 183);
+    font-weight: 100;
+}
+
+
+/* .peyment-method {
+    text-align: start;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    width: 90%;
+    margin-top: 1rem;
+    margin-left: 3rem;
+} */
+
+/* .copy-peyment-page {
+    margin-top: 2rem;
+} */
+
+/* .transationBtn {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+} */
+
+.transation-help-btn {
+
+    background: #FEBF32;
+     border: none;
+     color: #17171A;
+     cursor: pointer;
+  
+     
+    }
+    
+.transation-share-btn {
+
+    background: #242632;
+    border: none;
+    text-decoration: none;
+    
+  
+}
+.link{
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.add-money{
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(196, 195, 195);
+    width: 60%;
+    /* background-color: #FEBF32; */
+}
+.add-money-text{
+    font-size: 1rem;
+    font-weight: none;
+    color: rgb(196, 195, 195);
+    /* background-color: #FEBF32; */
+}
+.notindesktop{
+    display: none;
+}
+.top-div-padding{
+    padding: 3rem;
+}
+
+@media (max-width:750px) {
+    .transation-content{
+        padding: 0%;
+    }
+    .transation-compilet{
+        /* background-color: #FEBF32; */
+        /* width: 105%; */
+        margin-top: 0% !important;
+        margin-bottom: 2rem !important;
+    }
+    .transactionComplet{
+        background: #17171A;
+    }
+    .noinmobile{
+        display: none;
+    }
+    .notindesktop{
+        display: block !important;
+    }
+    .transation-content {
+        border-radius: 0%;
+        background-color: transparent !important;
+    }
+    .transcation-complete-div{
+        display: flex;
+        flex-direction: row;
+        /* background-color: #FEBF32; */
+    }
+    .transcation-complete-div-text-2{
+        font-size: 0.7rem;
+        text-align: left;
+        
+    }
+    .top-div-padding{
+        padding: 1rem !important;
+    }
+    
+.p-text-1{
+    font-size: 15px;
+}
+.p-text-2{
+    font-weight: 400;
+font-size: 10px;
+color:  #CCCDCC;
+/* margin-bottom: 3rem !important; */
+}
+
+.p-text-3{
+    font-size: 10px;
+    /* margin-bottom: 3rem; */
+}
+}
+
+.mob-transaction-details-heading{
+    font-size:1.2rem;
+}
+.mob-transation-heading {
+    display: flex;
+    align-items: center;
+    /* justify-content:flex-start; */
+    width: 100%;
+    
+}
+.mob-transation-heading h3{
+    margin: 0%;
+}

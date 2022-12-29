@@ -1,0 +1,95 @@
+.transaction-section{
+    /* background-color: rebeccapurple; */
+    /* height: 70vh; */
+    margin-left: 6%;
+}
+
+/* desktop  card css  */
+.card-div{
+    /* background-color: yellowgreen; */
+    background-image: url("../../assets/Card.svg");
+    /* height: 30%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 30%; */
+    height: 10rem;
+    width: 17rem;
+    
+}
+.card-buttons button{
+    border-radius: 5px;    
+    padding: 0.4rem  ;
+}
+.add-money-button{
+    color: black;
+    background-color: #febf32;
+}
+.withdraw-button{
+    color: gray;
+    background-color: #171717;
+}
+.wallet-img{
+    width: 2.3rem;
+}
+.balance-text{
+    font-size: 90%;
+}
+.balance-amount{
+    font-size: 140%;
+    font-weight: bold;
+}
+.transaction-header{
+    margin: 1rem auto;
+}
+.transaction-list{
+    gap: 2rem;
+}
+.transaction-heading-1{
+    font-size: 1.2rem;
+}
+.transaction-heading-2{
+    font-size: 0.9rem;
+}
+.date-time{
+    font-size: 0.7rem;
+    color: gray;
+}
+.credit-img{
+    padding-right: 0.6rem;
+}
+
+
+/* mobile view */
+.mob-wallettransaction{
+    /* height: auto; */
+    /* background-color: #febf32; */
+}
+.mob-card-div{
+    /* background-color: yellowgreen; */
+    background-image: url("../../assets/Card.svg");
+    /* height: 30%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 30%; */
+    height: 30.8vh;
+    /* width: 100%; */
+    
+}
+.underline{
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-bottom: 1px solid #febf32;
+}
+.money-credited{
+    color: #07E57D;
+}
+.text-failed{
+    font-size: 0.7rem;
+    gap: 0.4rem;
+}
+.mob-transfered-to{
+    font-size: 75%;
+}
+.mob-transcation-amount{
+    font-size: 80%;
+}

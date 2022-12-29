@@ -1,0 +1,71 @@
+.popup-bg{
+    background-color: rgba(255, 255, 255, 0.067);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0%;
+    right: 0;
+    z-index: 999;
+}
+.Payment-method1-popup{
+    width: 30%;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    background-color: #2a2d3c;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.Payment-method1-popup .bank-details{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0.7rem 0.7rem;
+    gap: 1rem;
+    font-size: 0.9rem;
+}
+.button-wrapper button{
+    background-color: #07E57D;
+    color: #171717;
+    border-radius: 8px ;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    width: 70%;
+}
+
+/* method 2 */
+.QRcode-section{
+    gap: 1rem;
+}
+.QRcode-section img{
+    width: 50%;
+    
+}
+.QRcode-section button{
+    
+    border-radius: 8px ;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    width: 100%;   
+}
+.button-2-wrapper{
+    gap: 1rem;
+    font-size: 0.7rem;
+}
+.upi-div{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.payment-mode-img{
+    width: 3rem;
+}
+.copy-upi-img{
+    width: 0.9rem;
+}
+.qr-code-download{
+    background-color: #07E57D;
+    color: #171717;
+}
+.qr-code-share{
+    background-color: grey;
+    color: white;
+}

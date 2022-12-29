@@ -1,0 +1,140 @@
+.filter-transaction-box{
+    width: 75%;
+    /* justify-self: end; */
+    /* align-self: flex-end; */
+    border: 2px solid #272a37;
+    border-radius: 10px;
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.filter-transaction-box-header{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.All-div{
+    /* background-color: rebeccapurple; */
+    width: 20%;
+    justify-content: space-between;
+}
+.All-div input{
+    border-radius: 2px;
+    width: 1rem;
+    height: 1rem;
+}
+.grid-img{
+    width: 1rem;
+}
+.all-checkbox{
+    /* background-color: aquamarine; */
+    width: 60%;
+}
+.credit-options{
+    /* background-color: #FEBF32; */
+}
+.credit-div{
+    /* background-color: rebeccapurple; */
+    width: 25%;
+    justify-content: space-between;
+}
+.credit-div input{
+    border-radius: 2px;
+    width: 1rem;
+    height: 1rem;
+}
+.options{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+    justify-content: space-between;
+    gap: 0.7rem;
+    margin-top: 0.5rem;
+}
+.options input{
+    border-radius: 2px;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+}
+.filter-button button{
+    width: 95%;
+    background-color: #272a37;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 0.5rem 0px;
+}
+.proceed-filter button{
+    width: 95%;
+    background-color: #07E57D;
+    color: black;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 0.5rem 0px;
+
+}
+/* mob */
+.mob-filter-transaction-box{
+    width: 100%;
+    /* justify-self: end; */
+    /* align-self: flex-end; */
+    border: 2px solid #272a37;
+    border-radius: 10px;
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0%;
+    z-index: 99;
+    background-color: #17171a;
+}
+
+.mob-options{
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.7rem;
+    justify-content: space-between;
+    gap: 0.7rem;
+    margin-top: 0.5rem;
+}
+.mob-options input{
+    border-radius: 2px;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+}
+.dateContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.dateHeading {
+    margin: 0%;
+    padding: 0%;
+    color: #FEBF32;
+    text-align: left;
+}
+.startDate, .endDate {
+    width: 45%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0%;
+    margin: 0%;
+}
+.dateLabel {
+    font-size: 0.8rem;
+    margin: 0.5rem 0rem;
+}
+.dateInput {
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 0.2px 0.5rem;
+    width: 100%;
+    inset: none;
+    border: 1px solid #e1e0e0;
+    color: #EEE;
+}

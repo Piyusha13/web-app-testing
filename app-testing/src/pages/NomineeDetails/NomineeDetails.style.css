@@ -1,0 +1,73 @@
+.nominee-input-section{
+    width: 33%;
+    margin-top: 2.5rem;
+}
+.nominee-desk-input-name-container{
+    /* width: 35%; */
+    /* gap: 4rem; */
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #4f5261;
+    /* padding: 0.5rem; */
+    border-radius: 7px;
+    position: relative;
+    margin-bottom: 1.5rem;
+
+}
+.fa-chevron-down,.fa-chevron-up{
+    color: #febf32;
+}
+
+.update-button{
+    background-color: #4f5261;
+    color: #07E57D;
+    border-radius: 8px;
+    width: 85%;
+    padding: 0.5rem 0px;
+    /* font-weight: bold; */
+}
+.proceed-update{
+    background-color: #07E57D;
+    color: #17171a;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 85%;
+    padding: 0.5rem 0px;
+    /* font-weight: bold; */
+}
+/* mobile view */
+.mob-nominee-input-section{
+    /* width: 33%; */
+    margin-top: 2rem;
+}
+.mob-nomineeDetails-container{
+    height: 90vh;
+}
+.dropdown-div{
+    z-index: 100;
+    border-radius: 5px;
+}
+.dropdown-options{
+    width: 100%;
+    border-bottom: 1px solid #4f5261;
+    text-align: left;
+    padding:0.5rem;
+    /* font-weight: bold; */
+    cursor: pointer;
+}
+.dropdown-options:hover{
+    font-weight: bold;
+    /* transform:scale(1.1); */
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.border-none{
+    border: none;
+}
+.update-button-div{
+    border-radius: 10px 10px 0px 0px;
+    padding: 0.5rem 0px;
+    position: sticky;
+    bottom: 0%;
+}

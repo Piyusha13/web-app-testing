@@ -1,0 +1,12 @@
+.verifiedTick{
+    width: 35%;
+}
+/* a{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+} */
+.popup-width{
+    width: fit-content !important;
+    border-radius: 5px !important;
+}

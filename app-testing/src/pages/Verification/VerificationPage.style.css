@@ -1,0 +1,387 @@
+.verification-container{
+    flex-direction: row;
+    height: 100vh;
+}
+.verification-img-div{
+    background-color: #2a2d3c;
+}
+.verification-img-div img{
+    /* background-color: #07E57D; */
+    width: 45%;
+}
+.otp-input-div{
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+.verification-div{
+    height: 100vh;
+    /* background-color: #febf32; */
+}
+.verification-heading{
+    color: white;
+    font-weight: bold;
+    font-size: 200%;
+    margin: 1rem auto;
+}
+.verify-subheading{
+    color: #a1a6ba;
+    font-size: 1.5rem;
+}
+.email-change-div{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.container{
+    /* background-color: #a1a6ba; */
+    margin-bottom: 3rem;
+    margin-top: 0.5rem;
+}
+.character{
+    width: 3.5rem;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #febf32 ;
+    /* background-color: #f; */
+    margin-right: 1rem;
+
+}
+.invalid-character{
+    width: 3.5rem;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid red ;
+    /* background-color: #f; */
+    margin-right: 1rem;
+
+}
+.invalid-character--selected{
+    border: none;
+    border-bottom: 3px solid #febf32 ;
+    outline: none;
+    margin-right: 1rem;
+    
+
+    /* background-color: rebeccapurple; */
+}
+.invalid-character--inactive{
+    background-color: transparent;
+    border-bottom: 3px solid #febf32 ;
+    /* width: 1rem; */
+    margin-right: 1rem;
+
+}
+.character ::placeholder{
+    }
+.character--selected{
+    border: none;
+    border-bottom: 3px solid #febf32 ;
+    outline: none;
+    margin-right: 1rem;
+
+    /* background-color: rebeccapurple; */
+}
+.character--inactive{
+    background-color: transparent;
+    border-bottom: 3px solid #febf32 ;
+    /* width: 1rem; */
+    margin-right: 1rem;
+
+}
+.resend-div{
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+.verify-button-div,.proceed-verification{
+    width: 100%;
+}
+.verify-button-div button{
+    width: 85%;
+    border: none;
+    background-color: #282b39;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px  #2a2d3c;
+    padding: 1rem ;
+    margin: 2.5rem auto;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #07E57D;
+}
+.proceed-verification button{
+    width: 85%;
+    border: none;
+    background-color: #07E57D;
+    color: #17171A;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px  #2a2d3c;
+    padding: 1rem ;
+    margin: 2.5rem auto;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+@media (max-width: 912px) {
+    .verification-container{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .verification-img-div{
+        /* background-color: #febf32; */
+        background-color: transparent;
+
+    }
+    .verification-img-div img{
+        /* background-color: aquamarine; */
+        width: 50%;
+        padding-left: 5%;
+    }
+    .character{
+        width: 2.5rem;
+        color: white;
+        background-color: transparent;
+        border: none;
+        border-bottom: 3px solid #febf32 ;
+        /* background-color: #f; */
+        margin-right: 0.2rem;
+    
+    }
+    .invalid-character{
+        width: 2.5rem;
+        color: white;
+        background-color: transparent;
+        border: none;
+        border-bottom: 3px solid #febf32 ;
+        /* background-color: #f; */
+        margin-right: 0.2rem;
+    
+    }
+    .invalid-character--inactive,.invalid-character--selected{
+        /* border-bottom: 3px solid red; */
+    }
+    .verification-heading{
+        font-size: 340%;
+    }
+    .verify-subheading{
+        font-size: 210%;
+    }
+    .email-change-div{
+        font-size: 200%;
+        font-weight: bold;
+        margin: 0.1rem;
+    }
+    .resend-div{
+        font-size: 200%;
+    }
+    .verify-button-div{
+        width: 100%;
+    }
+    .verify-button-div button{
+        width: 100%;
+        border: none;
+        background-color: #282b39;
+        border-radius: 10px;
+        box-shadow: 0px 0px 30px  #2a2d3c;
+        padding: 1.3rem ;
+        /* margin: 2rem auto;
+         */
+         margin-top: 1.7rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    .proceed-verification{
+        width: 100%;
+    }
+    .proceed-verification button{
+        width: 100%;
+        border: none;
+        background-color: #07E57D;
+        color: #17171A;
+        border-radius: 10px;
+        box-shadow: 0px 0px 30px  #2a2d3c;
+        padding: 1.3rem ;
+        /* margin: 2rem auto;
+         */
+         margin-top: 1.7rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+}
+@media (max-width: 750px) {
+    .verification-container{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .verification-img-div{
+        /* background-color: #febf32; */
+        background-color: transparent;
+
+    }
+    .verification-img-div img{
+        /* background-color: aquamarine; */
+        width: 60%;
+        padding-left: 5%;
+    }
+    .character{
+        width: 2.5rem;
+        color: white;
+        background-color: transparent;
+        border: none;
+        border-bottom: 3px solid #febf32 ;
+        /* background-color: #f; */
+        margin-right: 0.2rem;
+    
+    }
+    .invalid-character{
+        width: 2.5rem;
+        color: white;
+        background-color: transparent;
+        border: none;
+        border-bottom: 3px solid #febf32 ;
+        /* background-color: #f; */
+        margin-right: 0.2rem;
+    
+    }
+    .invalid-character--inactive,.invalid-character--selected{
+        /* border-bottom: 3px solid red; */
+    }
+    .verification-heading{
+        font-size: 140%;
+    }
+    .verify-subheading{
+        font-size: 110%;
+    }
+    .email-change-div{
+        font-size: 100%;
+        font-weight: bold;
+        margin: 0.1rem;
+    }
+    .resend-div{
+        font-size: 100%;
+    }
+    .verify-button-div{
+        width: 100%;
+    }
+    .verify-button-div button{
+        width: 100%;
+        border: none;
+        background-color: #282b39;
+        border-radius: 10px;
+        box-shadow: 0px 0px 30px  #2a2d3c;
+        padding: 0.7rem ;
+        /* margin: 2rem auto;
+         */
+         margin-top: 1.7rem;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .proceed-verification{
+        width: 100%;
+    }
+    .proceed-verification button{
+        width: 100%;
+        border: none;
+        background-color: #07E57D;
+        color: #17171A;
+        border-radius: 10px;
+        box-shadow: 0px 0px 30px  #2a2d3c;
+        padding: 0.7rem ;
+        /* margin: 2rem auto;
+         */
+         margin-top: 1.7rem;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
+@media (max-width: 280px) {
+    .verification-container{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .verification-img-div{
+        /* background-color: #febf32; */
+        background-color: transparent;
+
+    }
+    .verification-img-div img{
+        /* background-color: aquamarine; */
+        width: 60%;
+        padding-left: 5%;
+    }
+    .character{
+        width: 2.5rem;
+        color: white;
+        background-color: transparent;
+        border: none;
+        border-bottom: 3px solid #febf32 ;
+        /* background-color: #f; */
+        margin-right: 0.2rem;
+    
+    }
+    .invalid-character{
+        width: 1.5rem !important;
+        color: white;
+        background-color: transparent;
+        border: none;
+        border-bottom: 3px solid #febf32 ;
+        /* background-color: #f; */
+        margin-right: 0.2rem;
+    
+    }
+    .invalid-character--inactive,.invalid-character--selected{
+        /* border-bottom: 3px solid red; */
+        
+    }
+    .verification-heading{
+        font-size: 140%;
+    }
+    .verify-subheading{
+        font-size: 90%;
+    }
+    .email-change-div{
+        font-size: 90%;
+        font-weight: bold;
+        margin: 0.1rem;
+    }
+    .resend-div{
+        font-size: 90%;
+    }
+    .verify-button-div{
+        width: 95%;
+    }
+    .verify-button-div button{
+        width: 100%;
+        border: none;
+        background-color: #282b39;
+        border-radius: 10px;
+        box-shadow: 0px 0px 30px  #2a2d3c;
+        padding: 0.7rem ;
+        /* margin: 2rem auto;
+         */
+         margin-top: 1.7rem;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .proceed-verification{
+        width: 75%;
+    }
+    .proceed-verification button{
+        width: 100%;
+        border: none;
+        background-color: #07E57D;
+        color: #17171A;
+        border-radius: 10px;
+        box-shadow: 0px 0px 30px  #2a2d3c;
+        padding: 0.7rem ;
+        /* margin: 2rem auto;
+         */
+         margin-top: 1.7rem;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}

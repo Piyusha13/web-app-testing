@@ -1,0 +1,123 @@
+.text-left{
+    text-align: left;
+}
+.name{
+    /* background-color: gray; */
+    width: 10rem;
+    text-align: left;
+    padding-left: 1.5rem;
+    /* margin-left: 2rem; */
+}
+.userName{
+    margin-right: 10rem;
+}
+.border-bottom{
+    border-bottom: 2px solid #3a3d48 !important;
+}
+.bankName-text{
+    padding: 0%;
+    margin: 0%;
+    font-size: 0.7rem;
+}
+.copyIcon,.wallet-icon{
+    width: 2rem !important;
+}
+.inline-block{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 0.8rem;
+    justify-content: center;
+    align-items: center;
+}
+.Active-button{
+    /* padding: 0%; */
+    font-size:0.7rem ;
+    color: white;
+    height: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    width: auto;
+    background-color:#08e57c;
+}
+.wallet-amount{
+    font-size: 0.7rem;
+}
+.view-button{
+    background-color: #febf32;
+    width: auto;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    padding: 0.3rem 1.7rem;
+}
+.text-green{
+    color: #08e57c;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #08e57c;
+    width: fit-content;
+}
+/* mobile section */
+.mob-img img{
+    width: 2rem;
+}
+.mob-bankName-text{
+    font-size: 0.5rem;
+}
+.mob-name{
+    /* background-color: gray; */
+    width: 4rem;
+    text-align: left;
+    padding-left: 0.5rem;
+    font-size: 0.7rem;
+    /* margin-left: 2rem; */
+}
+.mob-userName{
+    font-size: 0.7rem;
+    /* margin-right: 10rem; */
+}
+.mob-account-heading{
+    font-size: 0.8rem;
+}
+.mob-inline-block{
+    display: flex;
+    flex-direction: row;
+    /* font-weight: bold; */
+    font-size: 0.7rem;
+    justify-content: center;
+    align-items: center;
+}
+.mob-wallet-icon{
+    width: 1.5rem;
+}
+.mob-Active-button{
+    /* padding: 0%; */
+    font-size:0.5rem ;
+    color: white;
+    height: auto;
+    text-align: center;
+    border-radius: 3px;
+    width: auto;
+    background-color:#08e57c;
+}
+.mob-view-button{
+    background-color: #febf32;
+    width: auto;
+    border-radius: 3px;
+    font-size: 0.5rem;
+    padding: 0.2rem 1.5rem;   
+}
+.mob-text-green{
+    color: #08e57c;
+    font-size: 0.7rem;
+    border-bottom: 1px solid #08e57c;
+    width: fit-content;
+}
+.bank-details-navtab{
+    position: sticky;
+    bottom: 0%;
+    left: 0;
+    right: 0%;
+}
+.bank-details-container{
+    height: 90vh;
+}

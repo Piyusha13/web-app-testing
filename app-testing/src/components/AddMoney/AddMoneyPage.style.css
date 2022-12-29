@@ -1,0 +1,125 @@
+.addMoney-page{
+    justify-content: end;
+}
+.box{
+    width: 75%;
+    /* justify-self: end; */
+    /* align-self: flex-end; */
+    border: 2px solid #272a37;
+    border-radius: 10px;
+    gap: 1.5rem;
+    display: flex;
+}
+.input-amount{
+    border: 1px solid #272a37;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 0.8rem;
+}
+.input-amount-heading{
+    
+}
+.input-amount input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+}
+.selected-amount-div{
+    width: 100%;
+    margin-top: 1.5rem;
+}
+.non-selected-amount{
+    background-color: #2a2d3c;
+    color: #fdbe31;
+    font-size: 0.7rem;
+    width: 23%;
+    padding: 0.2rem 0rem;
+    border-radius: 4px;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+
+}
+.popular-text{
+    position: absolute;
+    top: -130%;
+    width: 100%;
+    font-size: 1rem;
+    background: -webkit-linear-gradient(60deg, #07E57D 30%, #FEBF32, #EA3943);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.selected-amount{
+    background-color: #07E57D;
+    color: #17171a;
+    font-size: 0.7rem;
+    width: 23%;
+    padding: 0.2rem 0rem;
+    border-radius: 4px;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+
+}
+.SMTB{
+    width: 100%;
+    padding: 0.7rem 0.5rem;
+    background-color: transparent;
+    /* border-radius: 8px; */
+    gap: 0.8rem;
+    border-bottom: 1px solid #2a2d3c;
+}
+.MTB{
+    font-size: 0.8rem;
+}
+.payment-type{
+    font-size: 0.7rem;
+    color: gray;
+}
+.continue-button,.continue-disable{
+    width: 100%;
+}
+.continue-button button{
+    width: 95%;
+    border: none;
+    background-color: #07E57D;
+    color: black;
+    border-radius: 8px;
+    padding: 0.5rem 0px;
+}
+.continue-disable button{
+    width: 95%;
+    border: none;
+    background-color: #272a37;
+    color: #07E57D;
+    border-radius: 8px;
+    padding: 0.5rem 0px;
+
+}
+.cancel-img{
+    display: none;
+}
+@media (max-width:750px) {
+    .addMoney-page{
+        justify-content: center;
+        
+    }
+    .box{
+        position: absolute;
+        bottom: 0%;
+        width: 100%;
+        z-index: 99;
+        background-color: #17171a;
+        border-radius: 10px 10px 0px 0%;
+    }
+    .cancel-img{
+        position: absolute;
+        right: 5%;
+        top: 5%;
+        display: block;
+    }
+}

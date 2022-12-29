@@ -1,0 +1,44 @@
+.aadhaar-submit{
+    background-color: #171717;
+    border-radius: 5px ;
+    padding: 0.5rem;
+    color: white;
+}
+.aadhaar-submited{
+ 
+    background-color: #07E57D;
+    border-radius: 5px ;
+    padding: 0.5rem;
+    color: #171717;   
+}
+.upload-pic{
+    /* background-image: url("../assets/ic_round-photo-camera.svg"); */
+    /* background-color: yellowgreen; */
+    /* background-repeat: no-repeat; */
+    /* color: transparent; */
+    /* height: 100px; */
+    /* width: 100px; */
+    background-color: #171717;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.upload-pic img{
+    margin: 2rem 3rem;
+    cursor: pointer;
+}
+.upload-pic input{
+    /* display: none; */
+    /* color: transparent; */
+    /* cursor: pointer; */
+    display: none;
+    visibility: none;
+    
+}
+.upload-div{
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+.label{
+    left: 40%;
+}

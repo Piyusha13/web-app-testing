@@ -1,0 +1,146 @@
+.desktop-main-div{
+    width: 100%;
+}
+.desktop-mid-div{
+    /* background-color: rebeccapurple; */
+    padding-right: 15rem !important;
+}
+.details-div{
+    text-align: left;
+    height: fit-content;
+    /* background-color: greenyellow; */
+}
+.support-user-img{
+    margin: 0%;
+    /* background-color: rebeccapurple; */
+    width: 50%;
+    border-radius: 50%;
+    height: 100%;
+    /* width: auto; */
+    
+}
+.font-size-small{
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+.support-info-heading{
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+.support-info-subheading{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.bg-gray{
+    background-color: #1f2227;
+}
+.boxborder{
+    border-radius: 10px;
+    border: 2px solid #1f2227;
+}
+.icons{
+    width: 2.5rem;
+}
+button{
+    border: none;
+    /* border-radius: 10px; */
+    width: 48%;
+    font-weight: bold;
+}
+.button-1, .button-2{
+    border-radius: 10px;
+    font-size: 1rem;
+
+}
+
+.button-2{
+    background-color: black;
+}
+.useful-link-options{
+    border-bottom: 2px solid #1f2227;
+    font-size: 0.8rem;
+}
+
+.mob-user-img{
+    width: 30%;
+    border-radius: 50%;
+    /* background-color: rebeccapurple; */
+}
+.mob-font-size-small{
+    font-size: 0.7rem;
+    font-weight: lighter;
+}
+.mob-support-info-heading{
+    font-size: 0.55rem;
+    font-weight: lighter;
+}
+.mob-support-info-subheading{
+    font-size: 0.5rem;
+    font-weight: 500;
+}
+.calenderImg{
+    width: 1.8rem;
+}
+.mob-buttons button{
+    border: none;
+    border-radius: 6px;
+    width: 48%;
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+.supportContainer{
+    height: 90vh;
+    /* background-color: rebeccapurple; */
+}
+.mob-support-page{
+    /* background-color: aquamarine; */
+    height: 100vh;
+}
+.support-navtab{
+    position: sticky;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    height: 10vh;
+}
+
+
+.mob-button-2{
+    background-color: black;
+}
+@media (max-width:375px) {
+    .supportContainer{
+        height: fit-content;
+    }
+    
+}
+@media only screen and (max-width: 540px) and (min-width: 540px)  {
+    .supportContainer{
+        height: fit-content;
+    }
+}
+@media (max-witdh: 800px) {
+    
+.mob-user-img{
+    width: 30%;
+    border-radius: 50%;
+    /* background-color: rebeccapurple; */
+}
+
+
+.bg-gray{
+    background-color: #1f2227;
+}
+.boxborder{
+    border-radius: 5px;
+    border: 2px solid #1f2227;
+}
+.calenderImg{
+    width: 1.8rem;
+}
+
+.useful-link-options{
+    border-bottom: 2px solid #1f2227;
+    font-size: 0.8rem;
+}
+}

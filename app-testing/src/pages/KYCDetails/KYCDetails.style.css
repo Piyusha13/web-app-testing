@@ -1,0 +1,75 @@
+.kyc-type button{
+    background-color: rgb(60, 60, 60);
+    color: white;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    width: 80%;
+    padding: 0.5rem;
+}
+.kyc-type button:hover{
+    background-color: #07E57D;
+    color: #171717;
+}
+.kyc-type{
+    gap: 1.2rem;
+    width: 40%;
+}
+.aadhaar-input-div{
+    /* background-color: rgb(60, 60, 60); */
+    border: 1px solid rgb(60, 60, 60);
+    border-radius: 8px;
+    color: rgb(60, 60, 60);
+    padding: 0.5rem;
+}
+.aadhaar-input-div input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.verify-button{
+    background-color: rgb(60, 60, 60);
+    color: white;
+    border-radius: 8px;
+    padding: 0.7rem;
+}
+.aadhaar-pan-div{
+    gap:1rem;
+    width: 45%;
+}
+.UD{
+    width: 75%;
+    /* background-color: yellowgreen; */
+}
+.aadhaar-pan-div img{
+    height: 150px;
+}
+
+.upload-kyc-steps{
+    /* background-color: #07E57D; */
+    font-size: 0.8rem;
+    width: 50%;
+}
+.personal-input-div{
+    border: 2px solid #282b39;
+    border-radius: 10px;
+    color: #7a7f99;
+    font-size: 0.8rem;
+    font-weight: 600;
+    width: 46%;
+    margin-bottom: 1.5rem;
+}
+.personal-input-div input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-weight: bold;
+    color: white;
+    width: 100%; 
+    font-size: 1rem;
+}
+.submit-personal-details{
+    border-radius: 8px ;
+    background-color: #282b39;
+    color: #7a7f99;
+    padding: 1rem;
+}
